@@ -16,8 +16,8 @@ public class Main {
         frame.addWindowListener(new java.awt.event.WindowAdapter() {
             @Override
             public void windowClosing(java.awt.event.WindowEvent windowEvent) {
-                panel.RUN_THREAD_FLAG = false;
-               panel.crossHair.timer.cancel();
+                DrawPanel.RUN_THREAD_FLAG = false;
+                panel.crossHair.timer.cancel();
 
             }
         });
